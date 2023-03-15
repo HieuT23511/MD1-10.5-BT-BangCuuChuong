@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tb = '<table border="1" cellspacing="1" width="500">'
+    for (let i = 1; i <= 9; i++) {
+        tb += '<tr>';
+        for (let j = 2; j <=9 ; j++) {
+            let resultX= i*j
+            tb += '<td>'+`${j}` +'x'+`${i}`+' = '+ resultX
+        }
+    }
+    document.write(tb);
+</script>
+</body>
+</html>
